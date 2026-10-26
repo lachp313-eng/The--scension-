@@ -3,6 +3,8 @@ name: Build THE ASCENSION APK
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 permissions:
   contents: read
